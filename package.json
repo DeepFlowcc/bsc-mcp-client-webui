@@ -29,7 +29,6 @@
     "figlet": "^1.8.0",
     "fs-extra": "^11.3.0",
     "graphql-request": "^7.1.2",
-    "moralis": "^2.27.2",
     "ora": "^8.2.0",
     "prompts": "^2.4.2",
     "ts-node-dev": "^2.0.0",
