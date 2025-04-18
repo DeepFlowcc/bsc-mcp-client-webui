@@ -1,0 +1,26 @@
+{
+  "name": "mcp-demo",
+  "version": "1.0.0",
+  "description": "MCP Web Demo with Client/Server Architecture",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "web-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node web-server.js",
+    "server": "node server.js",
+    "client": "node cli.js",
+    "web": "node web-server.js",
+    "dev": "node web-server.js",
+    "postinstall": "echo 'MCP Demo installed. Run npm start to launch the web interface.'"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "express": "^4.18.2",
+    "zod": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
